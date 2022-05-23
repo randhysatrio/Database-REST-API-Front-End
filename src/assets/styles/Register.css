@@ -1,0 +1,37 @@
+.register-page-body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  background: rgb(135, 137, 244);
+  background: linear-gradient(56deg, rgba(135, 137, 244, 1) 0%, rgba(135, 228, 108, 1) 81%);
+}
+
+.register-page-form-container {
+  height: 100vh;
+  width: 50vw;
+  background-color: white;
+}
+
+.register-page-form-header {
+  width: 100%;
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.register-page-input-container {
+  width: 60%;
+  padding-left: 1rem;
+}
+
+.error {
+  font-size: 0.8rem;
+  color: indianred;
+}
+
+.register-page-action-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}

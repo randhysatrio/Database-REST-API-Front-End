@@ -1,0 +1,47 @@
+.navbar-main-container {
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  background: rgb(135, 137, 244);
+  background: linear-gradient(56deg, rgba(135, 137, 244, 1) 0%, rgba(135, 228, 108, 1) 81%);
+  transition: all ease-in-out 200ms;
+}
+
+.navbar-hidden {
+  transform: translateY(-11vh);
+}
+
+.navbar-logo-container {
+  margin-right: auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.navbar-buttons-container button {
+  border: none;
+  outline: none;
+  height: 2.2rem;
+  width: 7rem;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: whitesmoke;
+  -webkit-box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.48);
+  box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.48);
+}
+
+.navbar-button-login {
+  background-color: rgb(129, 110, 233);
+}
+
+.navbar-button-register {
+  background-color: rgb(121, 104, 157);
+}

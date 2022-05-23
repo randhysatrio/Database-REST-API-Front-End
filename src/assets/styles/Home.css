@@ -1,0 +1,32 @@
+.home-main-container {
+  height: 185vh;
+}
+
+.home-product-data-header {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.home-main-banner {
+  height: 5rem;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.21);
+  font-weight: 500;
+}
+
+.home-banner-blue-line {
+  height: 100%;
+  width: 10px;
+  background-color: lightblue;
+  margin-right: 1rem;
+}

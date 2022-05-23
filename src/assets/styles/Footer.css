@@ -1,0 +1,10 @@
+.footer-main-container {
+  height: 5vh;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: white;
+}
